@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Uma calculadora de ROI que utiliza os VALORES EM TEMPO REAL dos tokens para te entregar PRATICIDADE e SIMPLICIDADE 
+        nos seus CÁLCULOS e INVESTIMENTOS!">
+    <link rel="stylesheet" type="text/css" href="css/calc.css">
+    <link rel="icon" href="images/nft-Logo.svg">
+    <title>NFT Roi Calculator</title>
+</head>
+
+<body>
+    <main>
+        <img src="images/nft-Logo.svg" alt="Logo NFT Roi Calculator" width="100%" class="logo">
+        <form onkeydown="return event.key != 'Enter';" method="get">
+            
+            <div class="entrada">
+                
+                <label>Token's Comprados</label>
+                
+                <input type="number" name="tokensComprados" id="tokensComprados" autocomplete="off">
+                
+                <label class="taxadiaria">Taxa Diária</label>
+                
+                <input type="number" name="taxaDiaria" id="taxaDiaria" autocomplete="off">
+                
+                <label class="mediaganho">Média de Ganho Diário</label>
+                
+                <input type="number" name="mediaGanhoDiario" id="mediaGanhoDiario" autocomplete="off">
+
+            </div>   
+            
+            <button type="submit">
+                <img src="images/button.svg" width="100%" alt="Submit">
+            </button>
+            
+            <div class="return">
+
+                <label class="valortoken">Valor do Token/USD</label>
+                
+                <input type="text" name="valorToken" id="valorToken" autocomplete="off" disabled>
+                
+                <label class="roi">ROI/Dias</label>
+               
+                <input type="text" name="ROI" id="ROI" autocomplete="off" placeholder="Aproximadamente" disabled>
+        
+            </div>
+            
+        </form>
+        
+        
+    </main>
+
+    <footer>
+        <nav>
+            <a href="https://www.youtube.com/channel/UCDbXNvC56Q_2zQiDmCNTm-g/videos" target="_blank" rel="noopener"
+                class="comoUtilizar">Como <strong>Utilizar</strong></a>
+        </nav>
+        <div>
+            <address><p>contato@nftroicalculator.com</p></address>
+               <p>Copyright &copy; 2021 - 2022 NFT ROI CALCULATOR. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

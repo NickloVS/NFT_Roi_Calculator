@@ -1,0 +1,22 @@
+{
+  "name": "projeto-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "4.16.3",
+    "pm2": "^5.1.2",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "production": "pm2 start index.js --name appx-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
